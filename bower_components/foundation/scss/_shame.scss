@@ -1,19 +1,129 @@
 @charset "UTF-8";
-// variables
-$circlek: #59deff; 
-$black: #333333;
 
-@mixin border($border-size: 5px, $border-type: solid, $border-color: $circlek) {
-    border: $border-size $border-type $border-color;
-} 
+//  variables
+//    the inevitable blue
+$wireBlue: #4EA0FF;
+$wireBluer: #3A95FF;
+$wireBlueLite: #B1D5FF;
+//    wireframing colors
+$wireFill: #f8f8f8;
+$wireBorder: #dfdfdf;
+$black: #222222;
+$white: #fff; 
+$blokk: "BLOKK"; 
+$blokkk: "BLOKK NEUE";
 
-body {
-  @include border(10px);
+//  mixin to make border-radius 50%
+@mixin circleRadius($radius: 50%) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}//  make border $wireBlue
+@mixin border($border-size: 5px, $border-type: solid, $border-color: $wireBlue) { border: $border-size $border-type $border-color; } 
+
+
+
+//  sidebar nav
+//    give nav fixed height
+nav { 
+  height: 100vh; 
+  position: fixed; 
+    &.small-12.large-2.columns.wireBlueLite { position: fixed; }
+}
+//    to get that wireframing look
+.wireBlueLite { background-color: $wireBlueLite; }
+.icon-bar.vertical { 
+  @extend .wireBlueLite;
+  width: 100%; 
+  &>a>label, &>a>span { 
+    font-family: $blokkk; 
+    color: $wireBlue; 
+  }
+}
+.icon-bar {
+    & logo { 
+      font-family: $blokk; 
+      color: white;
+    }
+    &>a:hover {
+     background-color: $wireBlueLite; 
+     border: 1px solid $wireBluer;
+    }
+}
+//  name badge
+.badge { 
+  @include border(1px, solid, $wireBluer);
+  & img { 
+    @include circleRadius();
+    width: 150px; 
+    height: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
 
-// plain ol' CSS
 
-// 3d cards
+
+//  spacer
+.spacer { content: ""; height: 1rem; }
+//  shapes
+#circle {
+  @include border(1px, solid, $wireBluer);
+  @include circleRadius();
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+#square {
+  @include border(1px);
+  width: 100%; 
+  height: 200px;
+    & .squareLabel { color: $white; font-weight: bold; line-height: 1em; }
+}
+
+
+.impactButton { width: 32px; height: 32px; }
+.img-tip 
+  { border-bottom: none; 
+    &:hover { border-bottom: none; }}
+
+
+
+
+.thc-align { text-align: center; }
+.thr-align { text-align: right; font-weight: bold;}
+thead { background: none!important; border: none; }
+table { border: none; }
+.thc-green { color: green; font-weight: bold; }
+.thc-red { color: red; font-weight: bold; }
+
+.thc-bold { font-weight: bold; border-bottom: 1px dotted $wireBlue;}
+
+//   plain ol' CSS
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: $wireBlue;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 5px solid $wireBlue;
+    border-right: 5px solid $wireBlue; 
+}
+body, body:before, body:after { z-index: 1000; }
+
+
+
+//  3d cards
   .card {
   position: relative;
   padding: 0;
@@ -63,6 +173,12 @@ body {
   border: solid 1px #eeeeee; 
 }
 
+.card .container { 
+  background-color: none;
+  @include circleRadius(5px);
+  & .front { background-color: $wireBlue; }
+}
+
 .card .container .front, .card .container .back {
   padding: 1em; 
 }
@@ -73,3 +189,5 @@ body {
   padding-bottom: 100%; 
 }              
           
+
+

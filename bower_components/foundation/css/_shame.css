@@ -1,5 +1,115 @@
+nav {
+  height: 100vh;
+  position: fixed; }
+  nav.small-12.large-2.columns.wireBlueLite, nav.small-12.large-2.columns.icon-bar.vertical {
+    position: fixed; }
+
+.wireBlueLite, .icon-bar.vertical {
+  background-color: #B1D5FF; }
+
+.icon-bar.vertical {
+  width: 100%; }
+  .icon-bar.vertical > a > label, .icon-bar.vertical > a > span {
+    font-family: "BLOKK NEUE";
+    color: #4EA0FF; }
+
+.icon-bar logo {
+  font-family: "BLOKK";
+  color: white; }
+.icon-bar > a:hover {
+  background-color: #B1D5FF;
+  border: 1px solid #3A95FF; }
+
+.badge {
+  border: 1px solid #3A95FF; }
+  .badge img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.spacer {
+  content: "";
+  height: 1rem; }
+
+#circle {
+  border: 1px solid #3A95FF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; }
+
+#square {
+  border: 1px solid #4EA0FF;
+  width: 100%;
+  height: 200px; }
+  #square .squareLabel {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1em; }
+
+.impactButton {
+  width: 32px;
+  height: 32px; }
+
+.img-tip {
+  border-bottom: none; }
+  .img-tip:hover {
+    border-bottom: none; }
+
+.thc-align {
+  text-align: center; }
+
+.thr-align {
+  text-align: right;
+  font-weight: bold; }
+
+thead {
+  background: none !important;
+  border: none; }
+
+table {
+  border: none; }
+
+.thc-green {
+  color: green;
+  font-weight: bold; }
+
+.thc-red {
+  color: red;
+  font-weight: bold; }
+
+.thc-bold {
+  font-weight: bold;
+  border-bottom: 1px dotted #4EA0FF; }
+
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #4EA0FF;
+  left: 0;
+  right: 0;
+  height: 5px; }
+
+body:before {
+  top: 0; }
+
+body:after {
+  bottom: 0; }
+
 body {
-  border: 10px solid #59deff; }
+  border-left: 5px solid #4EA0FF;
+  border-right: 5px solid #4EA0FF; }
+
+body, body:before, body:after {
+  z-index: 1000; }
 
 .card {
   position: relative;
@@ -41,6 +151,15 @@ body {
 
 .card .container {
   border: solid 1px #eeeeee; }
+
+.card .container {
+  background-color: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+  .card .container .front {
+    background-color: #4EA0FF; }
 
 .card .container .front, .card .container .back {
   padding: 1em; }

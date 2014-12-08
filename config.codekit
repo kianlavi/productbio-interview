@@ -45,6 +45,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/foundation\/css\/_shame.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/css\/_shame.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/foundation\/css\/foundation.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -63,11 +72,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/foundation\/css\/shame.css": {
+	"\/bower_components\/foundation\/css\/responsive-tables.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/foundation\/css\/shame.css",
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/css\/responsive-tables.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -441,6 +450,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/vendor\/placeholder.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/vendor\/min\/placeholder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation\/js\/vendor\/responsive-tables.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/vendor\/responsive-tables.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/vendor\/min\/responsive-tables-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3876,11 +3896,119 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/img\/certBiopreferred100.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202542,
+		"inputAbbreviatedPath": "\/img\/certBiopreferred100.jpg",
+		"outputAbbreviatedPath": "\/img\/certBiopreferred100.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certBiopreferred100_sm.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202542,
+		"inputAbbreviatedPath": "\/img\/certBiopreferred100_sm.jpeg",
+		"outputAbbreviatedPath": "\/img\/certBiopreferred100_sm.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certBiopreferred94.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253522,
+		"inputAbbreviatedPath": "\/img\/certBiopreferred94.jpg",
+		"outputAbbreviatedPath": "\/img\/certBiopreferred94.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certBiopreferred94_sm.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10204,
+		"inputAbbreviatedPath": "\/img\/certBiopreferred94_sm.jpeg",
+		"outputAbbreviatedPath": "\/img\/certBiopreferred94_sm.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certNone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8711,
+		"inputAbbreviatedPath": "\/img\/certNone.png",
+		"outputAbbreviatedPath": "\/img\/certNone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3142,
+		"inputAbbreviatedPath": "\/img\/impact.png",
+		"outputAbbreviatedPath": "\/img\/impact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact\/comm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8246,
+		"inputAbbreviatedPath": "\/img\/impact\/comm.png",
+		"outputAbbreviatedPath": "\/img\/impact\/comm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact\/orangeComm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11051,
+		"inputAbbreviatedPath": "\/img\/impact\/orangeComm.png",
+		"outputAbbreviatedPath": "\/img\/impact\/orangeComm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/paper.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10138,
+		"inputAbbreviatedPath": "\/img\/paper.png",
+		"outputAbbreviatedPath": "\/img\/paper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index_offcanvas.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index_offcanvas.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -5,59 +5,350 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foundation 5</title>
+  <title>Product Comparison Demo</title>
 
   <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
   <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
   <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link type="text/css" media="screen" rel="stylesheet" href="bower_components/foundation/css/responsive-tables.css" />
   <link rel="stylesheet" href="bower_components/foundation/css/_shame.css">
 
-  <!-- If you are using the gem version, you need this only -->
-  <link rel="stylesheet" href="bower_components/foundation/css/app.css">
-
-  <script src="bower_components/js/vendor/modernizr.js"></script>
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/vendor/responsive-tables.js"></script>
 
 </head>
 <body>
 
-<script>
- $("span").click(".custom").animate({width:"100%";
- </script>
-<div class="progress large-12">
-<span style="width: 0%;" class="meter custom"></span>
-</div>
-
-<div class="row">
-  <div class="small-6 large-4 columns"></div>
-  <div class="small-6 large-8 columns">
-  <div class="card">
-  <div class="container">
-    <div class="front">
-      <img src="http://placehold.it/400x600" />
+<div class="container">
+  
+  <nav class="small-12 large-2 columns wireBlueLite">
+    <div class="icon-bar vertical six-up">
+      
+      <a class="item">
+        <logo>Product Bio</logo>
+      </a>
+      
+      <a class="item badge">
+          <span>Eden Temple</span>
+           <div id="circle"></div>
+          <span>of Easter Seals</span>
+      </a>
+      
+      <a class="item">
+        <img class="hide" src="http://foundation.zurb.com/docs/assets/img/images/fi-home.svg" >
+        <label>Inventory</label>
+      </a>
+      
+      <a class="item">
+        <img class="hide" src="http://foundation.zurb.com/docs/assets/img/images/fi-bookmark.svg" >
+        <label>Compliance</label>
+      </a>
+      
+      <a class="item">
+        <img class="hide" src="http://foundation.zurb.com/docs/assets/img/images/fi-info.svg" >
+        <label>Needs</label>
+      </a>
+      
+      <a class="item">
+        <img class="hide" src="http://foundation.zurb.com/docs/assets/img/images/fi-mail.svg" >
+        <label>Inbox</label>
+      </a>
     </div>
+  </nav>
 
-    <div class="back">
-      <h5>This is a card.</h5>
-      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
-      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
-      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
-      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
-    </div>
+  <div class="small-12 large-9 columns">
+    <div class="rows">
+      <div class="small-12 large-12 columns spacer"></div>
+      <div class="small-12 large-12 large-pull-1 columns">
+        <table class="responsive">
+          <thead>
+            <tr>
+              <th width="150"></th>
+              <th width="300" class="thc-align">
+                <div class="card">
+                  <div class="container">
+                    
+                    <div class="front">
+                      <div id="square">
+                        <img src="/img/paper.png">
+                        <h4 class="squareLabel">Ol' Fashioned Copy Paper</h4>
+                      </div>
+                    </div>
+
+                    <div class="back">
+                      <h5>This is a card.</h5>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                    </div>
+                  </div>
+                </div>
+                <p class="subheader"><a class="thc-bold" href="#">OfficeMax, Inc.</a></p>
+              </th>
+              <th width="300" class="thc-align">
+                <div class="card">
+                  <div class="container">
+                    <div class="front">
+                      <div id="square">
+                        <img src="/img/paper.png">
+                        <h4 class="squareLabel">Hammermill Color Copy Gloss</h4>
+                      </div>
+                    </div>
+
+                    <div class="back">
+                      <h5>This is a card.</h5>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                    </div>
+                  </div>
+                </div>
+              <p class="subheader"><a class="thc-bold" href="#">International Paper Company</a></p>
+
+              </th>
+              <th width="300" class="thc-align">
+                <div class="card">
+                  <div class="container">
+                    <div class="front">
+                      <div id="square">
+                        <img src="/img/paper.png">
+                        <h4 class="squareLabel">Aspen 100 Recycled Multi-Use Paper</h4>
+                      </div>
+                    </div>
+
+                    <div class="back">
+                      <h3>This is a card.</h3>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                      <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+                      <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+                    </div>
+                  </div>
+                </div>
+                <p class="subheader"><a class="thc-bold" href="#">Boise, Inc.</a></p>
+              
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+
+        <table class="responsive">
+          <thead>
+            <tr >
+              <th width="150"></th>
+              <th width="300"></th>
+              <th width="300"></th>
+              <th width="300"></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td class="thr-align">Price</td>
+              <td class="thc-align thc-green">$6.49/ream</td>
+              <td class="thc-align">$16.49/ream</td>
+              <td class="thc-align">$21.49/ream</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Benefit</td>
+              <td class="thc-align">
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+              </td>
+              <td class="thc-align">
+                 <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+              </td>
+              <td class="thc-align">
+                 <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img class="impactButton" src="/img/impact/orangeComm.png"/>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="thr-align">Certifications</td>
+              <td class="thc-align"> 
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img src="/img/certBiopreferred94_sm.jpeg"/>
+                </span>
+              </td>
+              <td class="thc-align">
+                <span data-tooltip aria-haspopup="true" class="has-tip img-tip" title="Tooltips are awesome, you should totally use them!">
+                  <img src="/img/certNone.png"/>
+                </span>
+              </td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+             <tr>
+              <td class="thr-align">Manufacturer</td>
+              <td class="thc-align"><a class="thc-bold" href="#">OfficeMax, Inc.</a></td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Vendor</td>
+              <td class="thc-align"><a class="thc-bold" href="#">Hurwitz & Feuer</a></td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Characteristic</td>
+              <td class="thc-align">Bio-based</td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            
+            <tr>
+              <td class="thr-align">Should You Buy It?</td>
+              <td class="thc-align">Yes</td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Savings</td>
+              <td class="thc-align thc-green">+$3,510/year</td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Location</td>
+              <td class="thc-align">Boca Raton, FL</td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+             <tr>
+              <td class="thr-align">Materials Involved</td>
+              <td class="thc-align">Lumber, Water Treatment</td>
+              <td class="thc-align">Content Goes Here</td>
+              <td class="thc-align">Content Goes Here</td>
+            </tr>
+            <tr>
+              <td class="thr-align">Length of Contract</td>
+              <td class="thc-align">Min. 10 years</td>
+              <td class="thc-align">Min. 5 years</td>
+              <td class="thc-align">Min. 1 year</td>
+            </tr>
+            <tr>
+              <td class="thr-align">CSR Report</td>
+              <td class="thc-align"><a class="thc-bold" href="#">2013-14 CSR</a></td>
+              <td class="thc-align"><a class="thc-bold" href="#">2013-14 CSR</a></td>
+              <td class="thc-align"><a class="thc-bold" href="#">2013-14 CSR</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+
+<!--
+        <div class="small-12 large-3 large-offset-1 columns">
+        <div class="card">
+          <div class="container">
+            <div class="front">
+              <div id="square"></div>
+            </div>
+
+            <div class="back">
+              <h5>This is a card.</h5>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 large-3 columns">
+        <div class="card">
+          <div class="container">
+            <div class="front">
+              <div id="square"></div>
+            </div>
+
+            <div class="back">
+              <h5>This is a card.</h5>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 large-3 end columns">
+        <div class="card">
+          <div class="container">
+            <div class="front">
+              <div id="square"></div>
+            </div>
+
+            <div class="back">
+              <h5>This is a card.</h5>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+              <p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+              <p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      </div>
   </div>
-</div>     </div>
 </div>
-<div class="row">
-  <div class="small-2 large-4 columns">...</div>
-  <div class="small-4 large-4 columns">...</div>
-  <div class="small-6 large-4 columns">...</div>
-</div>
-<!-- Requires Foundation 4 | visit http://foundation.zurb.com to download -->
- 
 
-  <script src="bower_components/js/vendor/jquery.js"></script>
-  <script src="bower_components/js/foundation.min.js"></script>
+  <script src="bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+
+
   <script>
     $(document).foundation();
   </script>
+<script>
+  $(function() {
+  $(".research tr:not(.accordion)").hide();
+  $(".research tr:first-child").show();
+    
+  $(".research tr.accordion").click(function(){
+      $(this).nextAll("tr").fadeToggle(500);
+  }).eq(0).trigger('click');
+});
+</script>
 </body>
 </html> 
