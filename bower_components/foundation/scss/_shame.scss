@@ -14,6 +14,10 @@ $blokk: "BLOKK";
 $blokkk: "BLOKK NEUE";
 $red: #AD141E; 
 
+@font-face {
+    font-family: 'blokk';
+    src: url(http://kianlavi.com/productbio/fonts/BLOKKRegular.ttf);
+}
 
 //  mixin to make border-radius 50%
 @mixin circleRadius($radius: 50%) {
@@ -55,7 +59,7 @@ nav {
   @extend .wireBlueLite;
   width: 100%; 
   &>a>label, &>a>span { 
-    font-family: $blokkk; 
+    font-family: $blokk; 
     color: $wireBlue; 
   }
 }

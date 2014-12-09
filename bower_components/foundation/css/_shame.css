@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'blokk';
+  src: url(http://kianlavi.com/productbio/fonts/BLOKKRegular.ttf); }
 #clickme {
   text-align: center;
   font-weight: bolder;
@@ -37,7 +40,7 @@ nav {
 .icon-bar.vertical {
   width: 100%; }
   .icon-bar.vertical > a > label, .icon-bar.vertical > a > span {
-    font-family: "BLOKK NEUE";
+    font-family: "BLOKK";
     color: #4EA0FF; }
 
 .icon-bar .logo {
