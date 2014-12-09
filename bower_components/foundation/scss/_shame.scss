@@ -12,6 +12,8 @@ $black: #222222;
 $white: #fff; 
 $blokk: "BLOKK"; 
 $blokkk: "BLOKK NEUE";
+$red: #AD141E; 
+
 
 //  mixin to make border-radius 50%
 @mixin circleRadius($radius: 50%) {
@@ -23,6 +25,22 @@ $blokkk: "BLOKK NEUE";
 @mixin border($border-size: 5px, $border-type: solid, $border-color: $wireBlue) { border: $border-size $border-type $border-color; } 
 
 
+#clickme { text-align: center; font-weight: bolder; border-bottom: 1px dotted $black; }
+.arrow-right{
+    width: 10px;
+    height: 10px;
+    margin: 0 1rem;
+    display: inline-block;
+    border-top:1px solid $wireBlue;
+    border-right:1px solid $wireBlue; 
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -o-transform:rotate(45deg);
+}
+
+.arrow-down { transform:rotate(135deg); -webkit-transform:rotate(135deg); -moz-transform:rotate(135deg); -o-transform:rotate(135deg); }
 
 //  sidebar nav
 //    give nav fixed height
@@ -42,8 +60,9 @@ nav {
   }
 }
 .icon-bar {
-    & logo { 
+    & .logo { 
       font-family: $blokk; 
+      font-weight: bold;
       color: white;
     }
     &>a:hover {
@@ -62,11 +81,24 @@ nav {
     margin-right: auto;
     }
 }
+.badge > .name { font-weight: bold; }
+.badgeSlant { color: $wireBluer; }
 
 
 
 //  spacer
 .spacer { content: ""; height: 1rem; }
+
+h2.strong { 
+  font-weight: bold; 
+  line-height: 1em; 
+  color: $wireBlue; 
+  text-align: center; 
+    & a { border-bottom: 1px dotted $wireBlue;}
+}
+h4.strong { text-align: center; }
+
+
 //  shapes
 #circle {
   @include border(1px, solid, $wireBluer);
@@ -82,13 +114,11 @@ nav {
     & .squareLabel { color: $white; font-weight: bold; line-height: 1em; }
 }
 
-
+td>span>img { margin-bottom: 1rem;}
 .impactButton { width: 32px; height: 32px; }
 .img-tip 
   { border-bottom: none; 
     &:hover { border-bottom: none; }}
-
-
 
 
 .thc-align { text-align: center; }
@@ -96,7 +126,7 @@ nav {
 thead { background: none!important; border: none; }
 table { border: none; }
 .thc-green { color: green; font-weight: bold; }
-.thc-red { color: red; font-weight: bold; }
+.thc-red { color: $red; font-weight: bold; }
 
 .thc-bold { font-weight: bold; border-bottom: 1px dotted $wireBlue;}
 

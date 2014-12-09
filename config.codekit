@@ -3940,6 +3940,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/certFSC.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8892,
+		"inputAbbreviatedPath": "\/img\/certFSC.png",
+		"outputAbbreviatedPath": "\/img\/certFSC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certFSC2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8581,
+		"inputAbbreviatedPath": "\/img\/certFSC2.png",
+		"outputAbbreviatedPath": "\/img\/certFSC2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/certNone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3947,6 +3969,17 @@
 		"initialSize": 8711,
 		"inputAbbreviatedPath": "\/img\/certNone.png",
 		"outputAbbreviatedPath": "\/img\/certNone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certSFI.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10050,
+		"inputAbbreviatedPath": "\/img\/certSFI.png",
+		"outputAbbreviatedPath": "\/img\/certSFI.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3962,13 +3995,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/impact\/comm.png": {
+	"\/img\/impact\/blueLocal.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8246,
-		"inputAbbreviatedPath": "\/img\/impact\/comm.png",
-		"outputAbbreviatedPath": "\/img\/impact\/comm.png",
+		"initialSize": 13694,
+		"inputAbbreviatedPath": "\/img\/impact\/blueLocal.png",
+		"outputAbbreviatedPath": "\/img\/impact\/blueLocal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact\/blueTrade.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12895,
+		"inputAbbreviatedPath": "\/img\/impact\/blueTrade.png",
+		"outputAbbreviatedPath": "\/img\/impact\/blueTrade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact\/greenWater.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14912,
+		"inputAbbreviatedPath": "\/img\/impact\/greenWater.png",
+		"outputAbbreviatedPath": "\/img\/impact\/greenWater.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3980,6 +4035,50 @@
 		"initialSize": 11051,
 		"inputAbbreviatedPath": "\/img\/impact\/orangeComm.png",
 		"outputAbbreviatedPath": "\/img\/impact\/orangeComm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/impact\/orangeWelfare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12871,
+		"inputAbbreviatedPath": "\/img\/impact\/orangeWelfare.png",
+		"outputAbbreviatedPath": "\/img\/impact\/orangeWelfare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logoBoise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80273,
+		"inputAbbreviatedPath": "\/img\/logo\/logoBoise.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoBoise.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logoIPC.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24326,
+		"inputAbbreviatedPath": "\/img\/logo\/logoIPC.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoIPC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logoOfficeMax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85532,
+		"inputAbbreviatedPath": "\/img\/logo\/logoOfficeMax.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoOfficeMax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
